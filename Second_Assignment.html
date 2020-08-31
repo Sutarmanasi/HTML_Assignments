@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Assignment</title>
+</head>
+<body>
+    <form>
+
+        <h1>&nbsp;Novell Services Login</h1>
+        <label for="username">Username :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+
+        <label for="password">Password :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <label for="cityOfEmployment">City Of <br>Employement :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="cityOfEmployment" name="cityOfEmployment">
+        <br><br>
+
+        <label for="webserver">Web Server :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select name="webserver" id="webserver">
+            <option value="" disabled selected>----Choose a server----</option>
+            <option value="1">Apache</option>
+            <option value="2">IIS</option><!--Internet Information Server-->
+            <option value="3">Jigsaw</option>
+            <option value="4">lighttpd</option>
+        </select>
+        <br><br>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="role" name="admin" value="admin">Admin <br>
+        Please specify &nbsp;&nbsp;&nbsp;
+        <input type="radio" id="role" name="engineer" value="engineer">Engineer<br>your role:
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="role" name="manager" value="manager">Manager <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="role" name="guest" value="guest">Guest 
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="sign-on" name="sign-on" value="sign-on">Mail <br>
+        Single Sign-On &nbsp;
+        <input type="checkbox" id="sign-on" name="sign-on" value="sign-on">Payroll <br>to the following:
+        <input type="checkbox" id="sign-on" name="sign-on" value="sign-on">Self-Service
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Login">&nbsp;&nbsp;
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
